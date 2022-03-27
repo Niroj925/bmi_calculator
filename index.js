@@ -3,11 +3,11 @@ function calc(){
     var htf=parseInt(document.getElementById("htf").value);
     var hti=parseInt(document.getElementById("hti").value);
     var wt=parseInt(document.getElementById("wt").value);
-    var ht=((htf+(hti/12))/3.33).toFixed(3);
     var bmi,status,clr;
-    if(ht>2.7||wt>150)
+     var ht=((htf+(hti/12))/3.33).toFixed(3);
+    if(ht>2.7||wt>150||wt<0||hti>12||hti<0||htf<0)
     {
-        var bmi="invalid input";
+        bmi="invalid input";
         clr="black";
     }
     else{
