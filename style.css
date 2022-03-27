@@ -1,0 +1,38 @@
+
+body{
+    font-family:ubuntu;
+   
+}
+#bd{
+    background-color:rgb(149, 211, 190);
+}
+.hh{
+    width:100%;
+    height:10%;
+    background-color:#34e1ff;
+    text-align:center;
+    margin-right:40px;
+}
+.cc{
+    margin-left: 20px;
+}
+.tt{
+    font-size: 2rem;
+}
+#btn:hover{
+    color:#111;
+    background-color:#34e1ff;
+}
+.if{
+   -webkit-appearance: none; 
+   width:10%;
+   margin-top:2%;
+   display: inline;
+}
+.op{
+    width:30%;
+    background-color:rgb(194, 178, 178);
+    border:1px solid;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}

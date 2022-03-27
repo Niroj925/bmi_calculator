@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>mero web</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body id="bd">
+      <div class="hh">
+          <snap class="tt">Body Mass Index (BMI) Calculator</snap>
+      </div>
+      <section class="cc">
+          <h3>About BMI</h3>
+        <snap>BMI is a ratio of weight of your body and height.
+            This is only applicable for above 20 years.<br>
+            <strong>Status of BMI</strong><br>
+              <ol>
+                  <li>below 18.4=under weight</li>
+                  <li> 18.4-24.9=ideal</li>
+                  <li>above 24.9=over weight</li>
+              </ol>
+        </snap>
+        <h3><strong>Check your BMI</strong></h2>
+        <section class="cal">
+            <snap>enter your height:</snap>
+            <input class="if col-lg-4 col-md-3 col-sm-2" type=""  type="number" id="htf">
+            <snap>feet</snap>
+            <input class="if col-lg-4 col-md-3 col-sm-2" type="number" id="hti">
+            <snap>inches</snap><br>
+            <snap>enter your weight:</snap>
+            <input class="if col-lg-4 col-md-3 col-sm-2" type="number" id="wt">
+            <snap>kg</snap><br>
+            <button class="buttn btn-primary" type="button" id="btn"
+            onclick="calc()">submit</button>
+            <div class="op">
+                <snap id="sd">BMI: </snap>
+            </div>
+        </section>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <script src="index.js"></script>
+</body>
+</html>
