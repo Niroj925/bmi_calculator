@@ -8,6 +8,7 @@ function calc(){
     if(ht>2.7||wt>150)
     {
         var bmi="invalid input";
+        clr="black";
     }
     else{
      bmi=(wt/(ht*ht)).toFixed(3);
@@ -28,6 +29,7 @@ function calc(){
     }
     else{
         status=" (none)";
+        clr="black";
     }
     document.getElementById("sd").style.color=clr;
     document.getElementById("sd").innerHTML="BMI:"+bmi+status;
